@@ -1,3 +1,4 @@
+/* General Body Styles */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -34,6 +35,24 @@ section {
     margin: auto;
 }
 
+/* Project Card Styles */
+.project-card {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.project-card h3 {
+    margin-top: 0;
+}
+
+.project-card p {
+    margin: 5px 0;
+}
+
 footer {
     background-color: #333;
     color: white;
@@ -42,4 +61,84 @@ footer {
     position: fixed;
     width: 100%;
     bottom: 0;
+}
+
+/* Work Experience Card Styles */
+.experience-card {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.experience-card h3 {
+    margin-top: 0;
+}
+
+.experience-card p {
+    margin: 5px 0;
+}
+
+/* Contact Page Styles */
+.contact-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px auto;
+    max-width: 400px;
+    text-align: left;
+}
+
+.contact-list li {
+    margin: 10px 0;
+}
+
+.contact-list a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact-list a:hover {
+    text-decoration: underline;
+}
+
+/* Contact Page Icons Standard Size */
+.contact-icon {
+    width: 40px;  /* Set a standard size for all contact icons */
+    height: 40px; /* Ensures consistent size for all logos */
+    margin-right: 15px; /* Adds space between the icon and text */
+    vertical-align: middle; /* Align icons with text */
+}
+/* Assignment Card Styles */
+.assignment-card {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.assignment-card h3 {
+    margin-top: 0;
+}
+
+.assignment-card p {
+    margin: 10px 0;
+}
+
+.github-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0073e6;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.github-link:hover {
+    background-color: #005bb5;
 }
